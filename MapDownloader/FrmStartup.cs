@@ -27,7 +27,7 @@ namespace MapDownloader
 
         private void frmStartup_Load(object sender, EventArgs e)
         {
-            string json = client.DownloadString("https://raw.githubusercontent.com/danielhidalgojunior/MapDownloader/master/servers.json");
+            string json = client.DownloadString("http://dbi.zrage.com.br/servers.json");
 
             using (JsonDocument document = JsonDocument.Parse(json))
             {
