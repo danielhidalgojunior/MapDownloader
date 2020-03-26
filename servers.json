@@ -2,8 +2,15 @@
 	"servers":
 	[
 		{
-			"name": "ZRAGE BR Zombie Escape",
+			"name": "ZRAGE BR Trouble in Terrorist Town",
 			"mapList": "http://fastdl.zrage.com.br/csgo/maps_ttt.csv",
+			"fastDL": "http://fastdl.zrage.com.br/csgo/maps/",
+			"appID": "730",
+			"mapsDirectory": "\\csgo\\maps\\"
+		},
+		{
+			"name": "ZRAGE BR Zombie Escape",
+			"mapList": "http://fastdl.zrage.com.br/csgo/maps_ze.csv",
 			"fastDL": "http://fastdl.zrage.com.br/csgo/maps/",
 			"appID": "730",
 			"mapsDirectory": "\\csgo\\maps\\"
